@@ -79,7 +79,7 @@ _Hinweis: Die Berechnung des Ranges basiert auf den jeweiligen Benutzerstatistik
 
 Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ein Array an Optionen, die nicht angezeigt werden sollen, übergeben werden.
 
-> Optionen: `&hide=["stars","commits","prs","issues","contribs"]`
+> Optionen: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=["contribs","prs"])
@@ -276,10 +276,10 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 ```md
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
 </a>
 ```
 
